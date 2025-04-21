@@ -1,0 +1,7 @@
+#Protect single file
+<Files admin.php>
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile /home/opponer/domains/invent.opponer.com/public_html/cruddiy/attempt3/.htpasswd
+Require valid-user
+</Files>
